@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+#logo {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #303030;
+
+}
+
+#tituloprincipal {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    background-color: #303030;
+
+    
+}
+
+#nome {
+    margin-left: 125px;
+    font-size: 50px;
+    background-color: #303030;
+
+}
+
+#tituloPrimario{
+    margin-left: 400px;
+    background-color: #303030;
+
+}
+
+#tituloSecundario{
+    margin-left: 400px;
+    background-color: #303030;
+}
+
+
+header{
+    background-color: #303030;
+    color: white;
+    padding-bottom: 100px;
+}
+
+main {
+    background-color: white;
+    color: black;
+}
+
+#menuinformacional{
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-bottom: 50px;
+}
+
+#tituloPrimarioMI {
+    padding-left: 400px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+#texto{
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+#setaEsquerda{
+     padding-top: 125px;
+     padding-left: 30px;
+     display: none;
+     cursor: pointer;
+}
+
+#setaDireita{
+    padding-top: 125px;
+    padding-right: 100px;
+    cursor: pointer;
+}
+
+#imagem1{
+    padding-left: 100px;
+}
+
+#imagem2{
+    display: none;
+    padding-right: 100px ;
+}
+
+#setaEsquerda:hover {
+    transform: translateY(-7px);
+    transition-duration: 0,5s;
+}
+
+#setaDireita:hover {
+    transform: translateY(-7px);
+    transition-duration: 0,5s;
+}
+
+#formulario {
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+#tituloFormulario{
+    text-align: center;
+    padding-top: 50px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #C07212;
+    height: 40px;
+    width: 250px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #C07212;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 15px 20px rgb(64, 63, 63);
+}
